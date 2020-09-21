@@ -12,7 +12,8 @@
 | 目录 | 作用 |
 | - | - |
 | cloudfunctions | 存放云函数文件 |
-| cloudfunctions | 存放以下文件 |
+| miniprogram | 存放以下文件 |
+| pages | 存放每个页面文件 |
 | styles | 存放公共样式 |
 | components | 存放组件 |
 | images | 存放静态图片 |
