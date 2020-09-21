@@ -30,9 +30,9 @@
 ### 首页
 <img src="https://raw.githubusercontent.com/huadi95/my-img/master/saoshu-img/home.jpg" width="375" />
 
-### 分类页
+### 我的页面
 <img src="https://raw.githubusercontent.com/huadi95/my-img/master/saoshu-img/me.jpg" width="375" />
 
-### 商品列表页
+### 图书详情页面
 <img src="https://raw.githubusercontent.com/huadi95/my-img/master/saoshu-img/details.jpg" width="375" />
 
