@@ -1,0 +1,42 @@
+<!-- index.wxml -->
+<view class="container">
+  <view class="carousel">
+    <swiper indicator-color="#999" indicator-active-color="#333" circular indicator-dots autoplay>
+      <block wx:for="{{imgUrl}}" wx:key="*this">
+        <swiper-item>
+          <view class="carousel-box">
+            <view class="carousel-box-left" hover-class="none" hover-stop-propagation="false">
+              <image class="slide-image" src="{{item.img1}}"></image>
+            </view>
+            <view class="carousel-box-center">
+              <image class="slide-image" src="{{item.img2}}"></image>
+            </view>
+            <view class="carousel-box-right" hover-class="none" hover-stop-propagation="false">
+              <image class="slide-image" src="{{item.img3}}"></image>
+            </view>
+          </view>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="book-info" wx:for="{{books}}" wx:key="*this" bindtap="toDetail" data-id="{{item._id}}">
+    <view class="book-top">
+      <view class="book-top-img">
+        <image class="book-top-cover" src="{{item.images}}"></image>
+      </view>
+      <view class="book-top-text">{{item.title}}</view>
+      <view class="book-top-rate">评分:{{item.rate}}</view>
+    </view>
+    <view class="book-detail">
+      <view class="book-detail-img">
+        <image class="book-detail-cover" src="{{item.images}}"></image>
+      </view>
+      <view class="book-detail-text">
+        <view class="book-detail-text-author">作者：{{item.author}}</view>
+        <view class="book-detail-text-press">出版社：电子图书出版社</view>
+        <view class="book-detail-text-price">{{item.price}}</view>
+        <view class="book-detail-text-count">浏览量：{{item.count}}</view>
+      </view>
+    </view>
+  </view>
+</view>

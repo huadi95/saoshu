@@ -1,0 +1,69 @@
+/**index.wxss**/
+
+.carousel-box {
+    display: flex;
+}
+
+.carousel-box-left {
+    width: 33%;
+}
+
+.carousel-box-center {
+    width: 34%;
+}
+
+.carousel-box-right {
+    width: 33%;
+}
+
+.slide-image {
+    margin: 17px;
+    width: 88px;
+    height: 110px;
+}
+
+.book-info {
+    height: 160px;
+    border-bottom: 1px solid #ddd;
+    margin: 10px;
+}
+
+.book-top {
+    height: 40px;
+    border-bottom: 1px solid#ddd;
+    border-top: 1px solid#ddd;
+    line-height: 40px;
+    display: flex;
+}
+
+.book-top-img {
+    width: 20px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.book-top-text {
+    width: 70%;
+    margin-left: 4px;
+}
+
+.book-top-cover {
+    width: 16px;
+    height: 16px;
+    margin-top: 10px;
+}
+
+.book-detail {
+    margin-top: 18px;
+    margin-left: 10px;
+    display: flex;
+}
+
+.book-detail-cover {
+    height: 80px;
+    width: 60px;
+}
+
+.book-detail-text {
+    margin-left: 60px;
+}
